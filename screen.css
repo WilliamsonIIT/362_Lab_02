@@ -216,12 +216,7 @@ textarea {
 
 * {
     box-sizing: border-box;
-}
-
-.box {
-  float: left;
-  width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
-  padding: 50px; /* if you want space between the images */
+    background: #2d3452;
 }
 
  .header{
@@ -231,41 +226,37 @@ textarea {
      padding: 10px;
 
 }
- .right{
- 	text-align: right;
- 	width: 45%;
+ .box{
+ 	width: 100%;
+ 	margin: 0 auto;
  	margin: 0;
- 	float: left;
+ 	text-align: left;
  }
- .right li{
- 	padding: 5px;
- 	font-size: 24px;
- }
-
- .left{
- 	width: 45%;
- 	margin: 0;
- 	float: right;
- }
-
 
 body {
      font-family: 'Raleway', Helvetica, sans-serif;
+     color: white;
 }
  h1 {
      font-family: 'Oswald', Helvetica, sans-serif;
      font-size: 4em;
+     color: white;
  }
  li {
  	font-size: 24px;
  }
+ input {
+ 	background: gray;
+ 	color: white;
+ }
+ input::placeholder {
+ color: white;
+ }
+ 
 
 
 
-
-
-
-@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 480px){
  
  .header{
      width: 50%;
@@ -285,7 +276,7 @@ body {
  	font-size: 12px;
  	}
  	}
-}
+
 
 
 
