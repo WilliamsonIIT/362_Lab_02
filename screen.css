@@ -214,14 +214,6 @@ textarea {
 }
 /* -- END FORM NORMALIZATION -- */
 
-
-@media only screen and (max-width: 480px){
- 	li {
- 	font-size: 12px;
- 	}
-
-
-}
 * {
     box-sizing: border-box;
 }
@@ -247,6 +239,7 @@ textarea {
  }
  .right li{
  	padding: 5px;
+ 	font-size: 24px;
  }
 
  .left{
@@ -267,6 +260,32 @@ body {
  	font-size: 24px;
  }
 
+
+
+
+
+
+@media only screen and (max-width: 480px){}
+ 
+ .header{
+     width: 50%;
+     margin: 0 auto;
+     text-align: center;
+     padding: 0px;
+     color: blue;
+     font-size: .5em;
+
+}
+
+	.right li {
+ 	font-size: 12px;
+ 	}
+
+ 	.left li {
+ 	font-size: 12px;
+ 	}
+ 	}
+}
 
 
 
