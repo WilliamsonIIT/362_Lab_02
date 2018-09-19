@@ -227,11 +227,13 @@ textarea {
 
 }
  .box{
+ 	padding: 40px;
  	width: 100%;
  	margin: 0 auto;
  	margin: 0;
  	text-align: left;
  }
+
 
 body {
      font-family: 'Raleway', Helvetica, sans-serif;
@@ -242,8 +244,8 @@ body {
      font-size: 4em;
      color: white;
  }
- li {
- 	font-size: 24px;
+ p {
+ 	padding: 5px;
  }
  input {
  	background: gray;
@@ -267,15 +269,18 @@ body {
      font-size: .5em;
 
 }
+ .box {
+ 	width: 100%;
+ 	text-align: center;
+ }
 
-	.right li {
- 	font-size: 12px;
- 	}
+ p {
+ 	padding: 10px;
+ }
 
- 	.left li {
- 	font-size: 12px;
- 	}
- 	}
+}
+
+
 
 
 
