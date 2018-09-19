@@ -216,31 +216,45 @@ textarea {
 
 
 @media only screen and (max-width: 480px){
+ 	li {
+ 	font-size: 12px;
+ 	}
 
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px; /* if you want space between the images */
 }
 
  .header{
      width: 50%;
      margin: 0 auto;
      text-align: center;
+     padding: 10px;
 
 }
- .input-fright {
- 	width: 50%;
-     margin-right: 20px;
-     margin-top: 5px;
-     margin-bottom: 5px;
-     margin-left: 20px;
-     float: right;
+ .right{
+ 	text-align: right;
+ 	width: 45%;
+ 	margin: 0;
+ 	float: left;
  }
- .text-fleft {
- 	width: 50%;
-     margin-right: 20px;
-     margin-top: 5px;
-     margin-bottom: 5px;
-     margin-left: 20px;
-     float: left;
+ .right li{
+ 	padding: 5px;
  }
+
+ .left{
+ 	width: 45%;
+ 	margin: 0;
+ 	float: right;
+ }
+
 
 body {
      font-family: 'Raleway', Helvetica, sans-serif;
@@ -249,5 +263,10 @@ body {
      font-family: 'Oswald', Helvetica, sans-serif;
      font-size: 4em;
  }
+ li {
+ 	font-size: 24px;
+ }
+
+
 
 
